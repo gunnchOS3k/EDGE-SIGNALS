@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+dist/
+*.mp4
+*.mov
+*.wav
+*.srt
+

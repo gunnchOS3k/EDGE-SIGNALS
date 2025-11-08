@@ -1,0 +1,32 @@
+=== NYU SUBMISSION FORM - COPY-PASTE READY ===
+
+Name:
+Edmund Gunn, Jr.
+
+Email:
+edmundgunnjr@gmail.com
+
+Team Name:
+EdmundGunnJr
+
+Video Title:
+EDGE SIGNALS — 6G Dreams in Neon
+
+File Name:
+EDGE_SIGNALS_EdmundGunnJr.mp4
+
+Music Source:
+Suno original instrumental (or TikTok/Epidemic Sound link if used). Provide credits URL/ID here.
+
+Consent:
+I retain ownership and grant OpenArt permission to repost with credit.
+
+Global Contest:
+Yes — submitted to OpenArt OMVA global form.
+
+Social link:
+(paste TikTok/IG/YouTube URL after posting)
+
+Notes:
+Generated with OpenArt Music Video; optional captions muxed via ffmpeg.
+

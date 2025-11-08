@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDGE SIGNALS — 6G Dreams in Neon</title>
+    <link rel="stylesheet" href="credits.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>EDGE SIGNALS</h1>
+            <p class="subtitle">6G Dreams in Neon</p>
+        </header>
+
+        <main>
+            <div class="video-wrapper">
+                <video controls preload="metadata" poster="">
+                    <!-- Update src with final video URL after upload to GitHub Releases or Dropbox -->
+                    <source src="TBD: Add video URL here" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <section class="credits" id="credits">
+                <h2>Credits</h2>
+                <div id="credits-content">Loading credits...</div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Created for OpenArt × NYU Hackathon</p>
+            <p class="hashtags">#OpenArtMVA #OMVANYU #GenARTNYU</p>
+        </footer>
+    </div>
+
+    <script>
+        // Load credits from manifest
+        fetch('../submission/credits_manifest.json')
+            .then(response => response.json())
+            .then(data => {
+                const creditsDiv = document.getElementById('credits-content');
+                creditsDiv.innerHTML = `
+                    <p><strong>Creator:</strong> ${data.creator}</p>
+                    <p><strong>Video Title:</strong> ${data.video_title}</p>
+                    <p><strong>Tools:</strong> ${data.tools.join(', ')}</p>
+                    <p><strong>Music:</strong> ${data.music.source}${data.music.license_url ? ` (<a href="${data.music.license_url}" target="_blank">License</a>)` : ''}</p>
+                    <div class="links">
+                        <p><strong>Links:</strong></p>
+                        <ul>
+                            <li><a href="${data.links.github}" target="_blank">GitHub</a></li>
+                            <li><a href="${data.links.linkedin}" target="_blank">LinkedIn</a></li>
+                            ${data.links.final_video !== 'TBD' ? `<li><a href="${data.links.final_video}" target="_blank">Final Video</a></li>` : ''}
+                            ${data.links.social_post !== 'TBD' ? `<li><a href="${data.links.social_post}" target="_blank">Social Post</a></li>` : ''}
+                        </ul>
+                    </div>
+                `;
+            })
+            .catch(error => {
+                document.getElementById('credits-content').innerHTML = '<p>Error loading credits. Please check credits_manifest.json</p>';
+                console.error('Error loading credits:', error);
+            });
+    </script>
+</body>
+</html>
+
