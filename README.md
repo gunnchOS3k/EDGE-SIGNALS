@@ -50,7 +50,8 @@
 
 - **GitHub**: [gunnchOS3k](https://github.com/gunnchOS3k)
 - **LinkedIn**: [edmund-gunn-jr](https://www.linkedin.com/in/edmund-gunn-jr/)
-- **Final Video**: See `submission/credits_manifest.json` (updated after upload)
+- **Final Video**: [Watch on Google Drive](https://drive.google.com/file/d/1UcFXjcLAlAa0xSllIT6cuR89_b9JbrSb/view?usp=drive_link)
+- **Landing Page**: [View Project Site](https://gunnchOS3k.github.io/EDGE-SIGNALS/site/) (or open `site/index.html` locally)
 - **Social Posts**: TikTok/IG/YouTube links in `submission/` folder
 
 ---
