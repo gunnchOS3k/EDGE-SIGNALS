@@ -1,0 +1,99 @@
+{
+  "schema": "gunnchos.surfacekit.v2",
+  "measured_topology": false,
+  "diagram_note": "Reading aid built from repository headings. It is not a measured topology and it is not a live system.",
+  "nodes": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "id": "what-we-used",
+      "label": "What We Used"
+    },
+    {
+      "id": "how-it-was-made",
+      "label": "How It Was Made"
+    },
+    {
+      "id": "judging-checklist-mapping",
+      "label": "Judging Checklist Mapping"
+    }
+  ],
+  "rows": [
+    {
+      "source": "README.md",
+      "scenario_id": "Overview",
+      "site_id": "7GC",
+      "ethical_framing": "# EDGE SIGNALS \u2014 6G Dreams in Neon **A kinetic, anime-inspired sprint through Brooklyn's signal-lit nights\u2014where 6G dreams, gesture controllers, and city rhythm sync on the beat. EDGE SIGNALS turns latency into choreography, with scene cuts tied to downbeats and color palettes shifting by musical section.** ---"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "What We Used",
+      "site_id": "7GC",
+      "ethical_framing": "- **OpenArt Music Video** (core) \u2014 Generated all visuals using style and story prompts - **Suno** (optional) \u2014 Original instrumental track generation - **ffmpeg** (optional) \u2014 Lightweight post-processing for caption muxing"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "How It Was Made",
+      "site_id": "7GC",
+      "ethical_framing": "1. Generated visuals via **OpenArt \u2192 Music Video** using the prompts in `/prompts` 2. Imported final MP4 to optional post step: captions (`captions/make_srt.py`) then ffmpeg mux 3. Exported as H.264, 1080p, \u2264200 MB, named `EDGE_SIGNALS_EdmundGunnJr.mp4`"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Judging Checklist Mapping",
+      "site_id": "7GC",
+      "ethical_framing": "### Creativity & Originality - 2D/3D hybrid anime aesthetic with 6G/edge-tech motifs - Custom color ramps per musical section (cyan \u2192 magenta shifts) - Beat-synced visual choreography ### Technical Execution - Scene cuts aligned to downbeats - Consistent style cues across all shots - Optional crisp captions with proper timing ### Story & Emotion - City-to-cosmos narrative arc: ambition \u2192 momentum \u2192 arrival - Visual p"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "About the Creator",
+      "site_id": "7GC",
+      "ethical_framing": "**Edmund Gunn, Jr.** \u2014 6G/URLLC researcher, edge AI engineer, and education outreach advocate. Working at the intersection of ultra-reliable low-latency communications and creative technology. Passionate about making cutting-edge research accessible through visual storytelling."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Quick Links",
+      "site_id": "7GC",
+      "ethical_framing": "- **GitHub**: [gunnchOS3k](https://github.com/gunnchOS3k) - **LinkedIn**: [edmund-gunn-jr](https://www.linkedin.com/in/edmund-gunn-jr/) - **Final Video**: [Watch on Google Drive](https://drive.google.com/file/d/1UcFXjcLAlAa0xSllIT6cuR89_b9JbrSb/view?usp=drive_link) - **Landing Page**: [View Project Site](https://gunnchOS3k.github.io/EDGE-SIGNALS/site/) (or open `site/index.html` locally) - **Social Posts**: TikTok/IG"
+    }
+  ],
+  "sources": [],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "body": "# EDGE SIGNALS \u2014 6G Dreams in Neon **A kinetic, anime-inspired sprint through Brooklyn's signal-lit nights\u2014where 6G dreams, gesture controllers, and city rhythm sync on the beat. EDGE SIGNALS turns latency into choreography, with scene cuts tied to downbeats and color palettes shifting by musical section.** ---"
+    },
+    {
+      "id": "what-we-used",
+      "title": "What We Used",
+      "body": "- **OpenArt Music Video** (core) \u2014 Generated all visuals using style and story prompts - **Suno** (optional) \u2014 Original instrumental track generation - **ffmpeg** (optional) \u2014 Lightweight post-processing for caption muxing"
+    },
+    {
+      "id": "how-it-was-made",
+      "title": "How It Was Made",
+      "body": "1. Generated visuals via **OpenArt \u2192 Music Video** using the prompts in `/prompts` 2. Imported final MP4 to optional post step: captions (`captions/make_srt.py`) then ffmpeg mux 3. Exported as H.264, 1080p, \u2264200 MB, named `EDGE_SIGNALS_EdmundGunnJr.mp4`"
+    },
+    {
+      "id": "judging-checklist-mapping",
+      "title": "Judging Checklist Mapping",
+      "body": "### Creativity & Originality - 2D/3D hybrid anime aesthetic with 6G/edge-tech motifs - Custom color ramps per musical section (cyan \u2192 magenta shifts) - Beat-synced visual choreography ### Technical Execution - Scene cuts aligned to downbeats - Consistent style cues across all shots - Optional crisp captions with proper timing ### Story & Emotion - City-to-cosmos narrative arc: ambition \u2192 momentum \u2192 arrival - Visual p"
+    },
+    {
+      "id": "about-the-creator",
+      "title": "About the Creator",
+      "body": "**Edmund Gunn, Jr.** \u2014 6G/URLLC researcher, edge AI engineer, and education outreach advocate. Working at the intersection of ultra-reliable low-latency communications and creative technology. Passionate about making cutting-edge research accessible through visual storytelling."
+    },
+    {
+      "id": "quick-links",
+      "title": "Quick Links",
+      "body": "- **GitHub**: [gunnchOS3k](https://github.com/gunnchOS3k) - **LinkedIn**: [edmund-gunn-jr](https://www.linkedin.com/in/edmund-gunn-jr/) - **Final Video**: [Watch on Google Drive](https://drive.google.com/file/d/1UcFXjcLAlAa0xSllIT6cuR89_b9JbrSb/view?usp=drive_link) - **Landing Page**: [View Project Site](https://gunnchOS3k.github.io/EDGE-SIGNALS/site/) (or open `site/index.html` locally) - **Social Posts**: TikTok/IG"
+    }
+  ],
+  "artifacts": [],
+  "methods": "",
+  "cards": [],
+  "runtime_mode": "PRECOMPUTED",
+  "runtime_boot": false
+}
