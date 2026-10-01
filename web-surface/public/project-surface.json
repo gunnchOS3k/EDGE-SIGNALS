@@ -1,0 +1,21 @@
+{
+  "repo": "EDGE-SIGNALS",
+  "productName": "Edge Signals",
+  "family": "7GC",
+  "classification": "STATIC_RESEARCH_SURFACE_WORKER",
+  "acceptedSha": "185e598c1584e09b379d484e8f1777ff2b43efe8",
+  "status": "STAGING_WORKER",
+  "summary": "A kinetic, narrative research piece about signal-lit nights and 6G ideas. It is not a measurement campaign.",
+  "capabilities": [
+    "Read what the piece is",
+    "Open the source repository"
+  ],
+  "limitations": [
+    "Not field measurement evidence",
+    "Not a playable game on this Worker"
+  ],
+  "sourceUrl": "https://github.com/gunnchOS3k/EDGE-SIGNALS",
+  "returnUrlEnv": "GUNNCHOS_PORTAL_URL",
+  "returnUrl": "https://gunnchos-site.gunnchos-finds.workers.dev",
+  "workerName": "gunnchos-edge-signals"
+}
